@@ -1,0 +1,39 @@
+<svg width="440" height="230" viewBox="0 0 440 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="440" height="230" rx="12" fill="url(#cardbg)" stroke="#00c6ff" stroke-opacity="0.4"/>
+
+  <text x="24" y="38" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700" fill="#00c6ff">
+    Abdul's GitHub Stats
+  </text>
+  <line x1="24" y1="50" x2="416" y2="50" stroke="#30363d" stroke-width="1"/>
+
+  <!-- row template: icon dot + label + value -->
+  <g font-family="Verdana, Geneva, sans-serif" font-size="14" fill="#c9d1d9">
+    <circle cx="32" cy="80" r="5" fill="#00c6ff"/>
+    <text x="48" y="85">Public Repositories</text>
+    <text x="410" y="85" text-anchor="end" font-weight="700" fill="#ffffff">6</text>
+
+    <circle cx="32" cy="112" r="5" fill="#f7931e"/>
+    <text x="48" y="117">Stars Earned</text>
+    <text x="410" y="117" text-anchor="end" font-weight="700" fill="#ffffff">1</text>
+
+    <circle cx="32" cy="144" r="5" fill="#3fb950"/>
+    <text x="48" y="149">Account Type</text>
+    <text x="410" y="149" text-anchor="end" font-weight="700" fill="#ffffff">Pro</text>
+
+    <circle cx="32" cy="176" r="5" fill="#a371f7"/>
+    <text x="48" y="181">Location</text>
+    <text x="410" y="181" text-anchor="end" font-weight="700" fill="#ffffff">Islamabad, PK</text>
+  </g>
+
+  <!-- animated accent bar -->
+  <rect x="24" y="200" width="0" height="6" rx="3" fill="#00c6ff">
+    <animate attributeName="width" from="0" to="392" begin="0.2s" dur="1.4s" fill="freeze"/>
+  </rect>
+</svg>
